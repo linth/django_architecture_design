@@ -1,7 +1,6 @@
 # django_architecture_design
-
 This is a side-project for general stuff/structure whatever creating a new project.
----
+
 
 # Getting Started
 ## :one: clone the project.
@@ -43,6 +42,7 @@ http://localhost:8000/app/
 - [x] bootstrap
 - [x] requirement.txt (dev, test, prod)
 - [ ] multiple database (dev, test, prod)
+- [ ] core
 - [ ] logging
 - [ ] swagger
 - [ ] WSGI and ASGI
@@ -53,7 +53,10 @@ http://localhost:8000/app/
 - [ ] User authentication (customer)
 - [ ] auth and permission
 - [ ] shell script (several command-lines for doing something.)
+- [ ] CI/CD
+- [ ] django unit testing
 
-#
+# Author
+linth
 
 # Reference
