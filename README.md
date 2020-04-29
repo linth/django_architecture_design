@@ -38,7 +38,7 @@ http://localhost:8000/app/
 - [x] django project
 - [x] django application (app, app2, app3, ..., etc)
 - [x] django api
-- [ ] settings (dev, test, prod)
+- [x] settings (dev, test, prod)
 - [x] templates
 - [x] static
 - [x] bootstrap
