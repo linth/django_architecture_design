@@ -1,7 +1,5 @@
 # django_architecture_design
-
 This is a side-project for general stuff/structure whatever creating a new project.
----
 
 # Getting Started
 ## :one: clone the project.
@@ -12,6 +10,9 @@ $ git clone https://github.com/linth/django_architecture_design.git
 ## :two: install packages/modules what you need.
 ```
 $ pip install -r requirement.txt
+$ pip install -r requirement_dev.txt
+$ pip install -r requirement_test.txt
+$ pip install -r requirement_prod.txt
 ```
 
 ## :three: run your application.
@@ -37,7 +38,7 @@ http://localhost:8000/app/
 - [x] django project
 - [x] django application (app, app2, app3, ..., etc)
 - [x] django api
-- [ ] settings (dev, test, prod)
+- [x] settings (dev, test, prod)
 - [x] templates
 - [x] static
 - [x] bootstrap
@@ -51,8 +52,10 @@ http://localhost:8000/app/
 - [ ] django function-based view (CRUD)
 - [ ] django class-based view (CRUD)
 - [ ] User authentication (customer)
-- [ ] auth and permission
+- [ ] auth and permission (for default)
+- [ ] auth and permission ([django-allauth](https://django-allauth.readthedocs.io/en/latest/index.html))
 - [ ] shell script (several command-lines for doing something.)
+- [ ] 400/403/404/500 page
 
 #
 
