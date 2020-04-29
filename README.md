@@ -12,6 +12,7 @@ $ git clone https://github.com/linth/django_architecture_design.git
 $ pip install -r requirement.txt
 $ pip install -r requirement_dev.txt
 $ pip install -r requirement_test.txt
+$ pip install -r requirement_prod.txt
 ```
 
 ## :three: run your application.
