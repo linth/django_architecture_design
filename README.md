@@ -52,8 +52,10 @@ http://localhost:8000/app/
 - [ ] django function-based view (CRUD)
 - [ ] django class-based view (CRUD)
 - [ ] User authentication (customer)
-- [ ] auth and permission
+- [ ] auth and permission (for default)
+- [ ] auth and permission ([django-allauth](https://django-allauth.readthedocs.io/en/latest/index.html))
 - [ ] shell script (several command-lines for doing something.)
+- [ ] 400/403/404/500 page
 
 #
 
