@@ -1,4 +1,4 @@
-# django_architecture_design
+# Django_architecture_design
 This is a side-project for general stuff/structure whatever creating a new project.
 
 # Getting Started
@@ -10,9 +10,10 @@ $ git clone https://github.com/linth/django_architecture_design.git
 ## :two: install packages/modules what you need.
 ```
 $ pip install -r requirement.txt
-$ pip install -r requirement_dev.txt
-$ pip install -r requirement_test.txt
-$ pip install -r requirement_prod.txt
+
+$ pip install -r requirements.requirement_dev.txt # for dev.
+$ pip install -r requirements.requirement_test.txt # for test.
+$ pip install -r requirements.requirement_prod.txt # for prod.
 ```
 
 ## :three: run your application.
