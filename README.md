@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 # django_architecture_design
 This is a side-project for general stuff/structure whatever creating a new project.
 
+=======
+# Django_architecture_design
+This is a side-project for general stuff/structure whatever creating a new project.
+>>>>>>> e529b3c6abe7feb9855854a3345b72bbc24a3bde
 
 # Getting Started
 :one: clone the project.
@@ -11,6 +16,10 @@ $ git clone https://github.com/linth/django_architecture_design.git
 :two: install packages/modules what you need.
 ```
 $ pip install -r requirement.txt
+
+$ pip install -r requirements.requirement_dev.txt # for dev.
+$ pip install -r requirements.requirement_test.txt # for test.
+$ pip install -r requirements.requirement_prod.txt # for prod.
 ```
 
 :three: run your application.
@@ -52,6 +61,7 @@ http://localhost:8000/app/
 - [ ] django rest framework (CRUD)
 - [ ] django function-based view (CRUD)
 - [ ] django class-based view (CRUD)
+<<<<<<< HEAD
 - [ ] User authentication ([Allauth](https://django-allauth.readthedocs.io/en/latest/))
 - [ ] auth and permission
 - [ ] shell script (several command-lines for doing something.)
@@ -64,6 +74,13 @@ http://localhost:8000/app/
 - [ ] AJAX (axios, ajax)
 - [ ] JWT
 - [x] Makefile
+=======
+- [ ] User authentication (customer)
+- [ ] auth and permission (for default)
+- [ ] auth and permission ([django-allauth](https://django-allauth.readthedocs.io/en/latest/index.html))
+- [ ] shell script (several command-lines for doing something.)
+- [ ] 400/403/404/500 page
+>>>>>>> e529b3c6abe7feb9855854a3345b72bbc24a3bde
 
 # Author
 linth
