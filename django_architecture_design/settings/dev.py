@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+# <<<<<<< HEAD
 """
 Django settings for django_architecture_design project.
 
@@ -12,8 +12,6 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
-=======
->>>>>>> e529b3c6abe7feb9855854a3345b72bbc24a3bde
 from .base import *
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -37,19 +35,11 @@ TEMPLATES = [
     },
 ]
 
-<<<<<<< HEAD
-=======
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
-
->>>>>>> e529b3c6abe7feb9855854a3345b72bbc24a3bde
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> e529b3c6abe7feb9855854a3345b72bbc24a3bde
