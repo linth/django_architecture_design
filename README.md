@@ -1,11 +1,5 @@
-<<<<<<< HEAD
-# django_architecture_design
-This is a side-project for general stuff/structure whatever creating a new project.
-
-=======
 # Django_architecture_design
 This is a side-project for general stuff/structure whatever creating a new project.
->>>>>>> e529b3c6abe7feb9855854a3345b72bbc24a3bde
 
 # Getting Started
 :one: clone the project.
