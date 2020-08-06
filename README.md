@@ -61,9 +61,10 @@ http://localhost:8000/app/
 - [ ] django rest framework (CRUD)
 - [ ] django function-based view (CRUD)
 - [ ] django class-based view (CRUD)
-<<<<<<< HEAD
 - [ ] User authentication ([Allauth](https://django-allauth.readthedocs.io/en/latest/))
-- [ ] auth and permission
+- [ ] User authentication (customer)
+- [ ] auth and permission (for default)
+- [ ] auth and permission ([django-allauth](https://django-allauth.readthedocs.io/en/latest/index.html))
 - [ ] shell script (several command-lines for doing something.)
 - [ ] CI/CD
 - [ ] django unit testing
@@ -74,13 +75,7 @@ http://localhost:8000/app/
 - [ ] AJAX (axios, ajax)
 - [ ] JWT
 - [x] Makefile
-=======
-- [ ] User authentication (customer)
-- [ ] auth and permission (for default)
-- [ ] auth and permission ([django-allauth](https://django-allauth.readthedocs.io/en/latest/index.html))
-- [ ] shell script (several command-lines for doing something.)
 - [ ] 400/403/404/500 page
->>>>>>> e529b3c6abe7feb9855854a3345b72bbc24a3bde
 
 # Author
 linth

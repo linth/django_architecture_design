@@ -23,15 +23,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 SECRET_KEY = 'y03nwe23gw^mar4e#py0qg+n7$etg02gm_i4^kjd)zes&e1gi+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-<<<<<<< HEAD
-# DEBUG = True
-
-# ALLOWED_HOSTS = []
-=======
-DEBUG = True
-
-ALLOWED_HOSTS = []
->>>>>>> e529b3c6abe7feb9855854a3345b72bbc24a3bde
 
 
 # Application definition
@@ -46,20 +37,14 @@ INSTALLED_APPS = [
 
     'app',
     'api',
-<<<<<<< HEAD
 
     'corsheaders',
-=======
->>>>>>> e529b3c6abe7feb9855854a3345b72bbc24a3bde
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-<<<<<<< HEAD
     'corsheaders.middleware.CorsMiddleware', # CORS
-=======
->>>>>>> e529b3c6abe7feb9855854a3345b72bbc24a3bde
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -69,61 +54,11 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'django_architecture_design.urls'
 
-<<<<<<< HEAD
-# TEMPLATES = [
-#     {
-#         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-#         'DIRS': [os.path.join(BASE_DIR, 'templates')],
-#         'APP_DIRS': True,
-#         'OPTIONS': {
-#             'context_processors': [
-#                 'django.template.context_processors.debug',
-#                 'django.template.context_processors.request',
-#                 'django.contrib.auth.context_processors.auth',
-#                 'django.contrib.messages.context_processors.messages',
-#             ],
-#         },
-#     },
-# ]
-=======
-TEMPLATES = [
-    {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],
-        'APP_DIRS': True,
-        'OPTIONS': {
-            'context_processors': [
-                'django.template.context_processors.debug',
-                'django.template.context_processors.request',
-                'django.contrib.auth.context_processors.auth',
-                'django.contrib.messages.context_processors.messages',
-            ],
-        },
-    },
-]
->>>>>>> e529b3c6abe7feb9855854a3345b72bbc24a3bde
-
 WSGI_APPLICATION = 'django_architecture_design.wsgi.application'
 
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
-
-<<<<<<< HEAD
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#     }
-# }
-=======
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
->>>>>>> e529b3c6abe7feb9855854a3345b72bbc24a3bde
 
 
 # Password validation
@@ -148,11 +83,8 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
-<<<<<<< HEAD
+
 LANGUAGE_CODE = 'en-us' # 'zh-hant'
-=======
-LANGUAGE_CODE = 'en-us'
->>>>>>> e529b3c6abe7feb9855854a3345b72bbc24a3bde
 
 TIME_ZONE = 'UTC'
 
@@ -170,7 +102,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
-<<<<<<< HEAD
 
 
 # CORS
@@ -202,5 +133,3 @@ CORS_ALLOW_HEADERS = [
     'x-csrftoken',
     'x-requested-with',
 ]
-=======
->>>>>>> e529b3c6abe7feb9855854a3345b72bbc24a3bde
