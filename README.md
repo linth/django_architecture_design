@@ -48,7 +48,7 @@ http://localhost:8000/app/
 - [ ] logging
 - [ ] swagger ([Django REST Swagger](https://django-rest-swagger.readthedocs.io/en/latest/))
 - [ ] WSGI and ASGI
-- [ ] Cross-Origin Resource Sharing (CORS)
+- [x] Cross-Origin Resource Sharing (CORS)
 - [ ] django rest framework (CRUD)
 - [ ] django function-based view (CRUD)
 - [ ] django class-based view (CRUD)
