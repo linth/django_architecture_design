@@ -46,6 +46,9 @@ http://localhost:8000/app/
 - [x] requirement.txt (dev, test, prod)
 - [ ] multiple database for dev, test, prod (MySQL, MSSQL, PostgreSQL, NoSQL)
 - [ ] environment for dev, test, prod (virtualenv, pipenv)
+- [x] django model
+- [x] django model.queryset + Manager
+- [x] django admin
 - [ ] docker and kubernetes
 - [ ] core
 - [ ] logging
@@ -70,6 +73,7 @@ http://localhost:8000/app/
 - [ ] JWT
 - [x] Makefile
 - [ ] 400/403/404/500 page
+- [ ] HTTP request/response by requests.
 
 # Author
 linth
